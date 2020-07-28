@@ -1,0 +1,68 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:H2Meetup
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20200729T210000
+DTEND;TZID=America/New_York:20200729T220000
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=4;BYDAY=WE
+DTSTAMP:20200728T212328Z
+UID:3b74p94e9bqk9362t9jma242rg@google.com
+CREATED:20200725T191955Z
+DESCRIPTION:HowToSFMC Meetup - APAC/AMS\n\nJoin your fellow emailgeeks and 
+ trailblazers for a casual chat about SFMC\, H2 challenges\, and anything ra
+ ndom that happens to come.  \n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this secti
+ on of the description.\n\nThis event has a video call.\nJoin: https://meet.
+ google.com/oct-tubq-kuz\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20200725T192025Z
+LOCATION:meet.google.com/oct-tubq-kuz
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:H2 Meetup - APAC/AMS
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/New_York:20200812T130000
+DTEND;TZID=America/New_York:20200812T140000
+RRULE:FREQ=WEEKLY;WKST=SU;INTERVAL=4;BYDAY=WE
+DTSTAMP:20200728T212328Z
+UID:lj4286pc9vqiufn1sr56thg58i@google.com
+CREATED:20200725T190604Z
+DESCRIPTION:HowToSFMC Meetup - EU/AMS\n\nJoin your fellow emailgeeks and tr
+ ailblazers for a casual chat about SFMC\, H2 challenges\, and anything rand
+ om that happens to come. \n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this section 
+ of the description.\n\nThis event has a video call.\nJoin: https://meet.goo
+ gle.com/dsa-xpxq-vmi\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20200725T192049Z
+LOCATION:meet.google.com/dsa-xpxq-vmi
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:H2 Meetup - EU/AMS 
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
